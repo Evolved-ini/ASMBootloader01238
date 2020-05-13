@@ -10,7 +10,7 @@ print_char:
   int 0x10  
   jmp print_char
 done:
-  hlt ; stop execution
+  hlt 
 
 msg: db "Hello world!", 0 
 
